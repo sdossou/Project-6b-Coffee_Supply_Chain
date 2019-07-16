@@ -21,7 +21,7 @@ The DApp User Interface when running should look like...
 ![truffle test](images/ftc_transaction_history.png)
 
 
-# Contract Creation Addresses on the Rinkeby Network:
+### Contract Creation Addresses on the Rinkeby Network:
 - 0xEe3a199Bc38CEb4ABF366dBFCC939291FF350Da8
 - 0x4715BaD018d166379d1De3D45028Fb0B70D2dE72
 - 0xdCf71Ab205cf68Dd712EBB1A09cf3863Bf41BF23
@@ -29,7 +29,7 @@ The DApp User Interface when running should look like...
 - 0x0eDF3B99bbbEFAcc28270747B0835A50B435976c
 
 
-# UML Diagrams
+## UML Diagrams
 
 ### Activity Diagram
 
