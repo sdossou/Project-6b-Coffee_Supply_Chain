@@ -20,26 +20,35 @@ The DApp User Interface when running should look like...
 
 ![truffle test](images/ftc_transaction_history.png)
 
-Contract Creation Addresses on the Rinkeby Network:
-0xEe3a199Bc38CEb4ABF366dBFCC939291FF350Da8
-0x4715BaD018d166379d1De3D45028Fb0B70D2dE72
-0xdCf71Ab205cf68Dd712EBB1A09cf3863Bf41BF23
-0x0eDF3B99bbbEFAcc28270747B0835A50B435976c
-0x0eDF3B99bbbEFAcc28270747B0835A50B435976c
+
+#Contract Creation Addresses on the Rinkeby Network:
+- 0xEe3a199Bc38CEb4ABF366dBFCC939291FF350Da8
+- 0x4715BaD018d166379d1De3D45028Fb0B70D2dE72
+- 0xdCf71Ab205cf68Dd712EBB1A09cf3863Bf41BF23
+- 0x0eDF3B99bbbEFAcc28270747B0835A50B435976c
+- 0x0eDF3B99bbbEFAcc28270747B0835A50B435976c
 
 
 # UML Diagrams
 
-Activity Diagram
+###Activity Diagram
+
+
 ![truffle test](project-6/UMLs/Coffee_Supply_Chain_Activity_Diagram.jpg)
 
-Sequence Diagram
+###Sequence Diagram
+
+
 ![truffle test](project-6/UMLs/Coffee_Supply_Chain_Sequence_Diagram.jpg)
 
-State Diagram
+###State Diagram
+
+
 ![truffle test](project-6/UMLs/Coffee_Supply_Chain_State_Diagram.jpg)
 
-Data Model
+###Data Model
+
+
 ![truffle test](project-6/UMLs/Coffee_Supply_Chain_Data_Model.jpg)
 
 ## Getting Started
@@ -51,7 +60,9 @@ These instructions will get you a copy of the project up and running on your loc
 Please make sure you've already installed ganache-cli, Truffle and enabled MetaMask extension in your browser.
 
 Truffle v5.0.21 (core: 5.0.21)
+
 Node v10.15.3
+
 Solidity >=0.4.24
 
 ### Installing
@@ -61,7 +72,7 @@ A step by step series of examples that tell you have to get a development env ru
 Clone this repository:
 
 ```
-git clone https://github.com/udacity/nd1309/tree/master/course-5/project-6
+git clone https://github.com/sdossou/Project-6b-Coffee_Supply_Chain
 ```
 
 Change directory to ```project-6``` folder and install all requisite npm packages (as listed in ```package.json```):
