@@ -167,17 +167,18 @@ contract('SupplyChain', function(accounts) {
         
 
         // Mark an item as Sold by calling function buyItem()
+        await supplyChain.addDistributor(distributorID);
         await supplyChain.buyItem(upc, {from: distributorID, value: productPrice});
-
+        
         // Retrieve the just now saved item from blockchain by calling function fetchItem()
         const resultBufferOne = await supplyChain.fetchItemBufferOne.call(upc);
         const resultBufferTwo = await supplyChain.fetchItemBufferTwo.call(upc);
 
         // Verify the result set
-        assert.equal(resultBufferTwo[6], distributorID, 'Error: Missing or Invalid distributorID');
+        assert.equal(resultBufferTwo[4], productPrice, 'Error: Missing or Product Price');
         assert.equal(resultBufferTwo[5], 4, 'Error: Invalid item State');
-        assert.equal(resultBufferOne[2], distributorID, 'Error: Missing or Invalid distributorID');
-        assert.equal(resultBufferTwo[6], distributorID, 'Error: Invalid item Owner');
+        assert.equal(resultBufferTwo[6], distributorID, 'Error: Missing or Invalid distributorID');
+        assert.equal(resultBufferOne[2], distributorID, 'Error: Invalid item Owner');
 
     })    
 
@@ -224,6 +225,7 @@ contract('SupplyChain', function(accounts) {
 
         // Mark an item as Sold by calling function receiveItem()
         await supplyChain.receiveItem(upc, {from: retailerID});
+        await supplyChain.addRetailer(retailerID);
 
         // Retrieve the just now saved item from blockchain by calling function fetchItem()
         const resultBufferOne = await supplyChain.fetchItemBufferOne.call(upc);
@@ -252,6 +254,7 @@ contract('SupplyChain', function(accounts) {
 
         // Mark an item as Sold by calling function purchaseItem()
         await supplyChain.purchaseItem(upc, {from: consumerID});
+        await supplyChain.addConsumer(consumerID);
 
         // Retrieve the just now saved item from blockchain by calling function fetchItem()
         const resultBufferOne = await supplyChain.fetchItemBufferOne.call(upc);
