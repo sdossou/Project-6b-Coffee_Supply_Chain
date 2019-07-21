@@ -25,8 +25,8 @@ The DApp User Interface when running should look like...
 ### Contract Creation Addresses on the Rinkeby Network:
 - Migrations: Tx hash: 0x5db96d7697f19c2a883269123a37ac6c8695d1a1e1d2c9f3a1ec215c72aec2da
 Contract address: 0x67F8E03e71EE0e02eaeA91F3c33a1AAd6cfc24ee
-Etherscan: https://rinkeby.etherscan.io/tx/0x5db96d7697f19c2a883269123a37ac6c8695d1a1e1d2c9f3a1ec215c72aec2da
 
+Etherscan: https://rinkeby.etherscan.io/tx/0x5db96d7697f19c2a883269123a37ac6c8695d1a1e1d2c9f3a1ec215c72aec2da
 https://rinkeby.etherscan.io/address/0x67f8e03e71ee0e02eaea91f3c33a1aad6cfc24ee
 
 - FarmerRole: Tx hash: 0xbbf607c962ddd848d33aeee37576babc972627046988855d8af2475d32cc1830
